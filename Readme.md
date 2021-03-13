@@ -1,3 +1,3 @@
-﻿# Tailwind Components
+﻿# Tailwind Framework
 
 Simple Website Portofolio

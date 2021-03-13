@@ -15,9 +15,9 @@
 </head>
 
 <body>
-  <nav class="flex items-center bg-blue-800 p-3 flex-wrap ">
+  <nav class="fixed flex items-center bg-blue-800 p-3 flex-wrap z-10 top-0 left-0 right-0 " >
 
-    <a href="#" class="p-2 mr-4 inline-flex items-center">
+    <a href="#matiusapriliant" class="p-2 mr-4 inline-flex items-center">
       <span class="text-xl text-white font-bold uppercase tracking-wide">
         MATIUS APRILIANTO
       </span>
@@ -28,22 +28,23 @@
       data-target="#navigation">
       <i class="material-icons">menu</i>
     </button>
+
     <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navigation">
       <div
         class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
-        <a href="#"
+        <a href="#home"
           class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
           <span>Home</span>
         </a>
-        <a href="#"
+        <a href="#skills"
           class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
           <span>Skill</span>
         </a>
-        <a href="#"
+        <a href="#works"
           class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
           <span>Work</span>
         </a>
-        <a href="#"
+        <a href="#contactme"
           class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
           <span>Contact Me</span>
 
@@ -58,7 +59,7 @@
 
 
   <section class="text-gray-600 body-font">
-    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center" id="home">
       <div
         class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-800">HI, I'am Matius Apriliant
@@ -83,7 +84,7 @@
   </section>
 
   <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-24 mx-auto" id="skills">
       <div class="text-center mb-20">
         <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4"> My Favourite Skills</h1>
         <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Here are some of the abilities i have to support
@@ -155,7 +156,7 @@
   </section>
 
   <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-24 mx-auto" id="works">
       <div class="flex flex-col text-center w-full mb-20">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">WORKS</h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">This is some of my works portofolio.</p>
@@ -235,7 +236,7 @@
     </div>
   </section>
   <section class="text-gray-600 body-font relative">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-24 mx-auto" id="contactme ">
       <div class="flex flex-col text-center w-full mb-12">
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Me</h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">For Detail Information and If You Need help.</p>
